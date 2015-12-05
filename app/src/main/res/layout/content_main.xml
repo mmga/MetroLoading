@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mmga.metroloadingsample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.mmga.metroloading.MetroLoadingView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        app:number="3"
+        app:duration_in_mills="1500"
+        app:interval_in_mills="100"
+
+        app:fade="false"
+        app:indicator="circle"
+        app:indicator_radius="6dp"
+        app:transform_color_mode="symmetry"
+        app:indicator_color="#0062cc"
+        app:transform_color="#ee00ff"
+        app:indicator_height="9dp"
+        app:indicator_width="4dp"
+
+        app:transform="false"
+        app:transform_height="4dp"
+        app:transform_width="4dp"
+        app:transform_radius="3dp"
+
+        app:has_shadow = "false"
+        app:shadow_color="#666666"
+
+
+
+
+        />
+</RelativeLayout>
