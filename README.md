@@ -1,6 +1,6 @@
 
 
-A Metro-style loading progress with some configurable attributes
+A configurable Metro-style loading progress.
 
 ##Preview
 ![](https://github.com/mmga/MetroLoading/blob/master/gifs/1.original.gif)
@@ -30,7 +30,7 @@ A Metro-style loading progress with some configurable attributes
 		/>
 ```
 
-###3.use it as a normal custom view
+###3.Use it as a normal custom view
 ```java
   mLoading.start();
   ```
@@ -57,7 +57,7 @@ now you should have got the loading animation as Preview
 ###3.change the scale
 ```xml
 	app:transform="true"
-	app:transform_height="4dp"
+	app:transform_height="15dp"
 	app:transform_width="4dp"
 	app:transform_radius="3dp"
 ```
@@ -66,18 +66,18 @@ this dimension is the size when indicators move to just middle of the view
 
 ###4.add a shadow
 ```xml
-	app:has_shadow = "false"
+	app:has_shadow = "true"
 	app:shadow_color="#666666"
 ```
 ![](https://github.com/mmga/MetroLoading/blob/master/gifs/4_shadow.gif)
 
 ###5.make it colorful
 ```xml
-	app:transform_color_mode="symmetry"
+	app:transform_color_mode="symmetry" //or linear or none 
 	app:transform_color="#ee00ff"
 ```
 ![](https://github.com/mmga/MetroLoading/blob/master/gifs/6_linearColor.gif)<br>
-transform_color_mode = lineary<br>
+transform_color_mode = linear<br>
 
 ![](https://github.com/mmga/MetroLoading/blob/master/gifs/7_symmetryColor.gif)<br>
 transform_color_mode = symmetry<br>
@@ -86,7 +86,7 @@ transform_color_mode = symmetry<br>
 ###6."Coach! I want to play ball"
 Take it
 ```xml
-	app:indicator="circle"
+	app:indicator="circle" // or rectangle
 ```
 attributes above are all available for the ball<br>
 ![](https://github.com/mmga/MetroLoading/blob/master/gifs/8_circle.gif)
