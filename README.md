@@ -111,7 +111,7 @@ attributes above are all available for the ball<br>
 |transform_radius       	 |dimension     |     
 |   						 | 				|  
 |transform_color_mode  		 |"none","linear","symmetry"   |     
-|transform_color			 |the color in the end(Linear-mode) or middle(symmetry)		|	  
+|transform_color			 |the color in the end(linear) or middle(symmetry)		|	  
 |fade        				 |boolean     	|     
 |   						 |  			|  
 |has_shadow       			 |boolean     	|     
@@ -128,8 +128,7 @@ attributes above are all available for the ball<br>
 
 
 ##About me
-I am just a very beginner in coding and this project is just a practice of knowledge I learn recently.<br>
-So,there must be something confusing or even mistake. Please let me know. Thanks <br>
+
 [Email](1034752946@qq.com)
 
 
