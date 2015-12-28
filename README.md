@@ -45,13 +45,13 @@ now you should have got the loading animation as Preview
 	app:duration_in_mills="1500"
 	app:interval_in_mills="100"
 ```
-![](https://github.com/mmga/MetroLoading/blob/master/gifs/5_speed.gif)
+![](https://github.com/mmga/MetroLoading/blob/master/gifs/2_speed.gif)
 
 ###2.fade in an out
 ```xml
 	app:fade="true"
 ```
-![](https://github.com/mmga/MetroLoading/blob/master/gifs/2_fade.gif)
+![](https://github.com/mmga/MetroLoading/blob/master/gifs/3_fade.gif)
 
 
 ###3.change the scale
@@ -61,7 +61,7 @@ now you should have got the loading animation as Preview
 	app:transform_width="4dp"
 	app:transform_radius="3dp"
 ```
-![](https://github.com/mmga/MetroLoading/blob/master/gifs/3_scale.gif)<br>
+![](https://github.com/mmga/MetroLoading/blob/master/gifs/4_scale.gif)<br>
 this dimension is the size when indicators move to just middle of the view
 
 ###4.add a shadow
@@ -69,7 +69,7 @@ this dimension is the size when indicators move to just middle of the view
 	app:has_shadow = "true"
 	app:shadow_color="#666666"
 ```
-![](https://github.com/mmga/MetroLoading/blob/master/gifs/4_shadow.gif)
+![](https://github.com/mmga/MetroLoading/blob/master/gifs/5_shadow.gif)
 
 ###5.make it colorful
 ```xml
