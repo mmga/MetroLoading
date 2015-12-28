@@ -15,15 +15,14 @@
         android:layout_centerInParent="true"
 
         app:number="3"
-        app:duration_in_mills="1500"
-        app:interval_in_mills="100"
+        app:interval_in_mills="200"
 
         app:fade="false"
         app:indicator="circle"
         app:indicator_radius="6dp"
         app:transform_color_mode="symmetry"
         app:indicator_color="#0062cc"
-        app:transform_color="#ee00ff"
+        app:transform_color="#ff00d5"
         app:indicator_height="9dp"
         app:indicator_width="4dp"
 

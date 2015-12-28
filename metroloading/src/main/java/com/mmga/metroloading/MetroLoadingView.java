@@ -13,7 +13,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -132,7 +131,7 @@ public class MetroLoadingView extends View {
     }
 
     public void start() {
-        Log.d("mmga", "start");
+//        Log.d("mmga", "start");
         this.setVisibility(VISIBLE);
         valueAnimators.clear();
         for (int i = 0; i < mNumber; i++) {
@@ -147,10 +146,10 @@ public class MetroLoadingView extends View {
                 super.onAnimationEnd(animation);
                 if (isAnimating) {
                     animatorSet.start();
-                    Log.d("mmga", "restart");
+//                    Log.d("mmga", "restart");
 
                 } else {
-                    Log.d("mmga", "end");
+//                    Log.d("mmga", "end");
                 }
             }
         });
@@ -237,7 +236,7 @@ public class MetroLoadingView extends View {
         isAnimating = false;
         animatorSet.end();
         this.setVisibility(GONE);
-        Log.d("mmga", "canceled");
+//        Log.d("mmga", "canceled");
     }
 
     public boolean isAnimating() {
